@@ -11,23 +11,23 @@ import familyImage from "@/assets/Images/family.png";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row items-center justify-between bg-white min-h-screen px-6 md:px-12 py-10">
+    <div className="flex flex-col-reverse lg:flex-row justify-between bg-white pl-0 lg:pl-6 md:px-12">
       {/* Left Section */}
-      <div className="lg:w-1/2 text-center lg:text-left">
-        <h1 className="sm:text-3xl lg:text-6xl font-bold text-gray-900">
+      <div className="lg:w-1/2 flex flex-col justify-center">
+        <p className="sm:text-3xl lg:text-6xl font-bold text-gray-900 lg:text-left text-center md:text-center pt-4 lg:pt-0">
           Chase Your Dream with us
-        </h1>
-        <p className="text-gray-500 mt-4 text-base md:text-lg">
+        </p>
+        <p className="text-gray-500 text-base md:text-lg text-center lg:text-left px-4 lg:px-0">
           The harder you work for something, the greater you’ll feel when you
           achieve it.
         </p>
 
         {/* Buttons */}
-        <div className="mt-6 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-          <button className="bg-pink-500 text-white px-6 py-3 rounded-full font-medium hover:bg-pink-600 transition">
+        <div className="mt-6 flex flex-col sm:flex-row justify-center lg:justify-start gap-4 px-4 lg:px-0">
+          <button className="bg-pink-500 text-white px-6 py-3 rounded font-medium hover:bg-pink-600 transition">
             APPLY ONLINE
           </button>
-          <button className="border border-pink-500 text-pink-500 px-6 py-3 rounded-full font-medium hover:bg-pink-100 transition">
+          <button className="border border-pink-500 text-pink-500 px-6 py-3 rounded font-medium hover:bg-pink-100 transition">
             LOAN CALCULATOR
           </button>
         </div>
@@ -48,7 +48,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="relative lg:w-1/2 flex justify-center">
+      <div className="relative lg:w-1/2 flex justify-center bg-pink-100">
         <div className="relative w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px]">
           <Image
             src={familyImage}

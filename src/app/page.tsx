@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "next/head";
 import Header from "./components/header";
-import DreamWithUs from "./components/HeroSection";
+import HeroSection from "./components/HeroSection";
 import CustomerExperience from "./components/CustomerExperience";
 import BussinessPartner from "./components/BussinessPartner";
 import IPDCSection from "./components/IPDCSection";
@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <DreamWithUs />
+        <HeroSection />
         <CustomerExperience />
         <BussinessPartner />
         <IPDCSection />
