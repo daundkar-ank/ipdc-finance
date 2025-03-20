@@ -11,13 +11,13 @@ import familyImage from "@/assets/Images/family.png";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row justify-between bg-white pl-0 lg:pl-6 md:px-12">
+    <div className="flex flex-col-reverse lg:flex-row justify-between bg-white pl-0 lg:pl-16 md:px-12">
       {/* Left Section */}
       <div className="lg:w-1/2 flex flex-col justify-center">
-        <p className="sm:text-3xl lg:text-6xl font-bold text-gray-900 lg:text-left text-center md:text-center pt-4 lg:pt-0">
+        <p className="sm:text-3xl lg:w-[500px] lg:text-6xl font-bold text-gray-900 text-center lg:!text-left pt-4 lg:pt-0">
           Chase Your Dream with us
         </p>
-        <p className="text-gray-500 text-base md:text-lg text-center lg:text-left px-4 lg:px-0">
+        <p className="text-gray-500 lg:w-[500px] text-base md:text-lg text-center lg:!text-left">
           The harder you work for something, the greater you’ll feel when you
           achieve it.
         </p>
@@ -33,7 +33,7 @@ const HeroSection = () => {
         </div>
 
         {/* Contact & Social Icons */}
-        <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-4 mt-6 text-gray-700">
+        <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-4 mt-6 text-gray-700 px-4 lg:px-0">
           <div className="flex gap-2 text-gray-900 font-bold">
             <Image src={phone} alt="phone" className="w-6 h-6" />
             <span>16519</span>
